@@ -24,6 +24,28 @@ A comprehensive full-stack quiz application built with React and Node.js that en
 - **CORS Configuration** - Secure cross-origin resource sharing
 - **Data Validation** - Input validation on both frontend and backend
 
+## 📸 Application Screenshots
+
+### Admin Dashboard - AI Question Generation
+![Admin Dashboard](./assets/admin-dashboard.png)
+*Comprehensive admin panel with AI-powered question generation and quiz management tools*
+
+### Interactive Quiz Interface
+![Quiz Interface](./assets/quiz-taking-interface.png)
+*Clean, intuitive quiz-taking experience with timer and progress tracking*
+
+### Detailed Results & Analytics
+![Quiz Results](./assets/quiz-results-page.png)
+*Comprehensive results page with detailed scoring and performance feedback*
+
+### User Dashboard
+![User Dashboard](./assets/user-dashboard.png)
+*Personal dashboard showing quiz history, statistics, and performance analytics*
+
+### Home Page - Available Quizzes
+![Home Page](./assets/home-page.png)
+*Modern landing page displaying available quizzes with difficulty levels and topics*
+
 ## 🛠️ Tech Stack
 
 ### Frontend
@@ -198,76 +220,10 @@ The application uses a sophisticated AI generation system:
 - **Quiz History** - Detailed attempt history with timestamps
 - **Performance Tracking** - Score analytics and progress tracking
 
-## 🧪 Available Scripts
-
-### Backend Scripts
-```bash
-npm run dev          # Start development server with nodemon
-npm start           # Start production server
-npm test            # Run test suite with coverage
-npm run test:watch  # Run tests in watch mode
-npm run seed        # Seed database with sample data
-npm run create-admin # Create admin user
-```
-
-### Frontend Scripts
-```bash
-npm run dev         # Start development server
-npm run build       # Build for production
-npm run preview     # Preview production build
-```
-
-## 🔧 Configuration
-
-### Environment Variables
-
-#### Backend (.env)
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `PORT` | Server port | Yes |
-| `MONGO_URI` | MongoDB connection string | Yes |
-| `JWT_SECRET` | JWT signing secret | Yes |
-| `TOKEN_EXPIRES_IN` | JWT expiration time | Yes |
-| `GEMINI_API_KEY` | Gemini AI API key | No* |
-| `CORS_ORIGINS` | Allowed CORS origins | Yes |
-
-*AI features will use template fallback if not provided
-
-#### Frontend (.env)
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `VITE_API_BASE_URL` | Backend API URL | Yes |
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **Port Conflicts**: Ensure ports 5001 (backend) and 5173 (frontend) are available
-2. **MongoDB Connection**: Verify MongoDB URI and network access
-3. **CORS Errors**: Check CORS_ORIGINS configuration in backend .env
-4. **AI Generation Fails**: Verify Gemini API key or rely on template fallback
-
-### Recent Fixes Applied
-- ✅ Fixed dashboard quiz display issues
-- ✅ Consolidated duplicate quiz creation components
-- ✅ Fixed API port configuration (5001 → 5000 → 5001)
-- ✅ Enhanced AI generation with proper fallback
-- ✅ Improved error handling and logging
-- ✅ Fixed authentication middleware imports
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-
 ## 👨‍💻 Author
 
-**Kunal** - Full Stack Developer
+**Kunal Darekar** - Full Stack Developer
 
 ---
 
-**Note**: This application includes comprehensive error handling, AI-powered features with fallbacks, and has been thoroughly tested and debugged. The codebase follows modern React and Node.js best practices with proper separation of concerns and maintainable architecture.
+*Built with modern web technologies and best practices for scalable, maintainable code.*
